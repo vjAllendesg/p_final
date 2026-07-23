@@ -1,0 +1,36 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+
+# --- Entornos virtuales ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.jupyter/
+
+# --- Editores / IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# --- Salidas temporales ---
+*.log
+*.tmp
+tmp/
+scratch/
+
+# --- Modelos "best" intermedios (los definitivos sí se versionan) ---
+modelos/*_best.pt

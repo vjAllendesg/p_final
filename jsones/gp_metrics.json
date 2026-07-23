@@ -1,0 +1,75 @@
+{
+  "per_property": [
+    {
+      "property": "Area_Inner",
+      "r2": 0.9991581596858622,
+      "mse": 0.0008298429745341247,
+      "sigma_mean": 0.027140289174499115,
+      "sigma_std": 0.0009837962736006175,
+      "time_seconds": 154.506596326828,
+      "kernel_optimized": "3.09**2 * RBF(length_scale=[10, 3.1, 2.07, 6.75, 10]) + WhiteKernel(noise_level=0.000685)"
+    },
+    {
+      "property": "Area_Outer",
+      "r2": 0.988208286445315,
+      "mse": 0.011350831329769575,
+      "sigma_mean": 0.10136213060055575,
+      "sigma_std": 0.007751857910754308,
+      "time_seconds": 167.94714450836182,
+      "kernel_optimized": "2.07**2 * RBF(length_scale=[0.344, 4.19, 7.58, 3.9, 2.76]) + WhiteKernel(noise_level=0.00844)"
+    },
+    {
+      "property": "Total_Area",
+      "r2": 0.998281660956286,
+      "mse": 0.0016725105962891876,
+      "sigma_mean": 0.03813216756420488,
+      "sigma_std": 0.002175397562600596,
+      "time_seconds": 145.76224827766418,
+      "kernel_optimized": "0.941**2 * RBF(length_scale=[0.484, 2.53, 4.55, 5.01, 10]) + WhiteKernel(noise_level=0.00126)"
+    },
+    {
+      "property": "Volume",
+      "r2": 0.9964121965818833,
+      "mse": 0.0034904020538870082,
+      "sigma_mean": 0.05379527492537843,
+      "sigma_std": 0.0025866275464990255,
+      "time_seconds": 127.02116346359253,
+      "kernel_optimized": "2.42**2 * RBF(length_scale=[2.84, 4.22, 2.24, 2.2, 9.51]) + WhiteKernel(noise_level=0.00262)"
+    },
+    {
+      "property": "SA_Vol_Ratio",
+      "r2": 0.997384310389226,
+      "mse": 0.002553567601934338,
+      "sigma_mean": 0.05081250554554369,
+      "sigma_std": 0.001774488666338781,
+      "time_seconds": 136.44058322906494,
+      "kernel_optimized": "2.1**2 * RBF(length_scale=[2.87, 3.87, 2.55, 3.74, 10]) + WhiteKernel(noise_level=0.0024)"
+    },
+    {
+      "property": "Porosity",
+      "r2": 0.996396882446867,
+      "mse": 0.0035055767145440605,
+      "sigma_mean": 0.053887705026693225,
+      "sigma_std": 0.002587450877210198,
+      "time_seconds": 119.11645317077637,
+      "kernel_optimized": "2.42**2 * RBF(length_scale=[2.84, 4.23, 2.24, 2.2, 9.53]) + WhiteKernel(noise_level=0.00263)"
+    },
+    {
+      "property": "Pore_Size",
+      "r2": 0.9447977298189336,
+      "mse": 0.055188800028096306,
+      "sigma_mean": 0.24169480477008068,
+      "sigma_std": 0.010342431352461155,
+      "time_seconds": 187.33025336265564,
+      "kernel_optimized": "0.775**2 * RBF(length_scale=[1.14, 0.215, 1.75, 10, 10]) + WhiteKernel(noise_level=0.0498)"
+    }
+  ],
+  "summary": {
+    "r2_mean": 0.9886627466177674,
+    "r2_std": 0.018216789538856443,
+    "mse_mean": 0.011227361614150657,
+    "mse_std": 0.018231636913687857,
+    "n_train": 2240,
+    "n_test": 2003
+  }
+}

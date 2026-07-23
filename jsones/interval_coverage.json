@@ -1,0 +1,38 @@
+[
+  {
+    "modelo": "f-NN-prob cruda",
+    "nominal": 0.68,
+    "picp": 0.8756151487055132,
+    "mpiw": 0.2257029116153717
+  },
+  {
+    "modelo": "f-NN-prob cruda",
+    "nominal": 0.95,
+    "picp": 0.9911561229584195,
+    "mpiw": 0.4423776865005493
+  },
+  {
+    "modelo": "f-NN-prob calibrada",
+    "nominal": 0.68,
+    "picp": 0.6769845232151772,
+    "mpiw": 0.1409466564655304
+  },
+  {
+    "modelo": "f-NN-prob calibrada",
+    "nominal": 0.95,
+    "picp": 0.9316025961058413,
+    "mpiw": 0.27625545859336853
+  },
+  {
+    "modelo": "GP",
+    "nominal": 0.68,
+    "picp": 0.7394622352186007,
+    "mpiw": 0.1619499650305588
+  },
+  {
+    "modelo": "GP",
+    "nominal": 0.95,
+    "picp": 0.9427287639968619,
+    "mpiw": 0.3174219314598952
+  }
+]

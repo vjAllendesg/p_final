@@ -1,0 +1,30 @@
+[
+  {
+    "propiedad": "Area_Inner",
+    "kernel": "RBF",
+    "lml": 4645.313185333957,
+    "r2_test": 0.9991467963530105,
+    "tiempo_s": 78.06385493278503
+  },
+  {
+    "propiedad": "Area_Inner",
+    "kernel": "Matern 2.5",
+    "lml": 4719.949754964691,
+    "r2_test": 0.9992078583302338,
+    "tiempo_s": 75.82858872413635
+  },
+  {
+    "propiedad": "Pore_Size",
+    "kernel": "RBF",
+    "lml": -236.15932012168923,
+    "r2_test": 0.9363698198539882,
+    "tiempo_s": 82.63839745521545
+  },
+  {
+    "propiedad": "Pore_Size",
+    "kernel": "Matern 2.5",
+    "lml": -180.65028037353295,
+    "r2_test": 0.9472006274603895,
+    "tiempo_s": 112.74403238296509
+  }
+]
